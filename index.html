@@ -1,7 +1,8 @@
 <html>
 
 <head>
-    <title>Game</title>
+    <title>Random project</title>
+    <button onclick="infoAlert()">Info</button>
     <link rel="stylesheet" href="style.css">
     <!--Load JS scripts-->
     <script type="text/javascript" src="scripts/functions.js"></script>
@@ -9,10 +10,11 @@
 </head>
 
 <body>
-    <h1>Game</h1> <button onclick="infoAlert()">Info</button>
+    <h1>Click on the canvas below</h1>
 
     <canvas id="myCanvas" width="500" height="500"></canvas>
-    <script src="scripts/main.js"></script>
+    <canvas id="hitBox" width="50" height="50"></canvas>
+    <script src="scripts/view.js"></script>
 </body>
 
 </html>

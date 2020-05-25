@@ -1,8 +1,12 @@
 canvas {
-     background: burlywood;
+     background: blue;
 }
 
 h1{
     font-family:  sans-serif, 'Times New Roman', serif;
     color: crimson;
+}
+
+.colour-red{
+    color: #F00;
 }
