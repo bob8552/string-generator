@@ -1,2 +1,2 @@
 # random-project
-A simple web page "game" made with JavaScript and HTML
+some random project i decided to do
