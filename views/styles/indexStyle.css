@@ -1,4 +1,20 @@
+/*Fonts and stuff*/
 h1{
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
     color: darkblue;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: deeppink;
+}
+
+button{
+    color: black;
+    background-color: ghostwhite;
 }
