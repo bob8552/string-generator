@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Hello world</title>
-        <link rel="stylesheet" href="./styles/indexStyle.css" type="text/css">
-        <script type="text/javascript" src="./scripts/data.js"></script>
-        <script type="text/javascript" src="./scripts/functions.js"></script>
-        <script type="text/javascript" src="./scripts/events.js"></script>
-    </head>
 
-    <body>
-        <h1>Test</h1>
+<head>
+    <title>Hello world</title>
+    <link rel="stylesheet" href="./styles/indexStyle.css" type="text/css">
+    <script type="text/javascript" src="./scripts/data.js"></script>
+    <script type="text/javascript" src="./scripts/functions.js"></script>
+    <script type="text/javascript" src="./scripts/events.js"></script>
+</head>
+
+<body>
+    <h1 id="h1">Test</h1>
+    <!--Inventory-->
+    <inv id="inventorySpace">Inventory: </inv><br><br>
+    <!--Money stuff-->
+    <div3 id="emptySpace">You have no money.</div3><br><br>
+    <button onclick="moneyAdd()">Add more money !</button>
+    <button onclick="removeAll()">Clear all money (No confirmation !)</button><br><br>
+    <!--Shop stuff-->
+    <div>
+        <div3>Better money dispenser (100+ Money needed !)</div3><br><br>
+        <button onclick="upgradedMoneyAdd()">Add more money !</button>
+    </div>
+
+    <div>
         <h2>Car</h2>
-        <body>
-            <button onclick="window.alert(carData.name)">View name</button><br><br>
-            <button onclick="window.alert(carData.price)">View price</button><br><br>
-        </body>
-    </body>
+        <img class="card-thumb" src="https://belmontbec.com/wp-content/themes/nevia2/images/shop-01.jpg" /><br><br>
+        <button onclick="window.alert(carData.name)">View name</button><br><br>
+        <button onclick="window.alert(carData.price)">View price</button><br><br>
+        <button onclick="window.alert(`Colour: ${carData.properties.colour}, Size: ${carData.properties.size}`)">View details</button>
+        <button onclick="checkMoney(carData.price)" onclick="inventory(carData.name, carData.price)">Buy (Cost: 200)</button>
+    </div>
+
+    <div>
+        <h2>Cup</h2>
+        <img class="card-thumb" src="https://belmontbec.com/wp-content/themes/nevia2/images/shop-01.jpg" /><br><br>
+        <button onclick="window.alert(cupData.name)">View name</button><br><br>
+        <button onclick="window.alert(cupData.price)">View price</button><br><br>
+        <button onclick="window.alert(`Colour: ${cupData.properties.colour}, Size: ${cupData.properties.size}`)">View details</button>
+        <button onclick="checkMoney(cupData.price, cupData.name)">Buy (Cost: 2)</button>
+    </div>
+</body>
+
 </html>
