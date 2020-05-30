@@ -1,17 +1,12 @@
 /*Fonts and stuff*/
-h1{
-    font-family: Arial, Helvetica, sans-serif;
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
     color: black;
 }
 
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: darkblue;
-}
-
-a{
-    font-family: Arial, Helvetica, sans-serif;
-    color: deeppink;
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 button{
@@ -20,8 +15,8 @@ button{
 }
 
 div3{
-    font-family: Arial, Helvetica, sans-serif;
-    color: yellowgreen;
+    font-family: 'Montserrat', sans-serif;
+    color: red;
 }
 
 inv{
