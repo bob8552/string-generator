@@ -1,0 +1,28 @@
+/*Fonts and stuff*/
+h1, h2, h3, h4, h5, h6{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+}
+
+p{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+}
+
+footer{
+    font-size: small;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: rgb(77, 0, 0);
+}
+
+button{
+    color: black;
+    background-color: ghostwhite;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border: 5px 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
