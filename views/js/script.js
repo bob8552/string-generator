@@ -1,4 +1,5 @@
 // Functions for getting random stuff
+
 function getRandomString(length) {
 
     var randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_)(*&^%$#@!-=;/,.';
