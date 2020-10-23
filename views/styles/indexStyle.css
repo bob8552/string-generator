@@ -5,31 +5,31 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: black;
 }
 
+body {
+
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 p {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: black;
 }
 
 footer {
   font-size: small;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: rgb(77, 0, 0);
 }
 
 button {
-  color: black;
-  background-color: ghostwhite;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  border: 5px 5px;
-  padding: 5px 5px;
+  background-color: silver; /* Green */
+  border: none;
+	border-radius: 4px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
 }
 
 ul {
@@ -48,7 +48,6 @@ li a,
 .dropbtn {
   display: inline-block;
   color: white;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -87,3 +86,47 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media only screen and (min-width: 600px) {
+    #menu {
+        float: right;
+        display: inline-block;
+    }
+    .menuitem {
+        display: inline;
+    }
+    .menuitem + .menuitem {
+        border-left: 1px solid white;
+        margin-left: 8px;
+        padding-left: 8px;
+    }
+    #menubutton {
+        display: none;
+    }
+}
+@media only screen and (max-width: 599px) {
+    #menubutton {
+        display: inline;
+        float: right;
+    }
+    #menu {
+        position: absolute;
+        top: 48px;
+        right: 0px;
+        background: #325232;
+        padding: 16px;
+    }
+    .shownmenu {
+        display: block;
+    }
+    .hiddenmenu {
+        display: none;
+    }
+    .menuitem {
+        display: block;
+    }
+    .menuitem + .menuitem {
+        margin-top: 8px;
+    }
+}
+

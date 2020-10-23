@@ -17,6 +17,10 @@ app.get("/", (req, res) => {
   res.render("index.ejs");
 });
 
+app.get("/notes", (req, res) => {
+  res.render("notes.ejs");
+});
+
 app.get("/wordgenerator", (req, res) => {
   res.render("words.ejs");
 });
